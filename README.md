@@ -5,6 +5,7 @@ Sentiment Analysis using BERT
 This Jupyter Notebook (Sentiment_analysis_using_BERT.ipynb) performs sentiment analysis on text data using a pre-trained BERT model from the Hugging Face Transformers library. It analyzes the sentiment of the provided text and presents the results in a DataFrame.
 
 Usage
+
 1.	Install Dependencies: Ensure you have the required Python libraries installed. You can install them using pip:
 
 2.	Open the Notebook: Open the Jupyter Notebook in your preferred environment.
@@ -24,11 +25,17 @@ Description
 
 •	Finally, the notebook outputs the DataFrame containing the input text and their corresponding sentiment scores.
 
+
 Notes
+
 •	This notebook requires an internet connection to access the pre-trained BERT model from the Hugging Face model hub.
 
+
 File Structure
+
 •	Sentiment_analysis_using_BERT.ipynb: The main Jupyter Notebook for performing sentiment analysis on text data and outputting the results.
 
+
 Acknowledgments
+
 •	The sentiment analysis model used in this notebook is provided by the Hugging Face Transformers library.
