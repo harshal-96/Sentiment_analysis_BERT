@@ -13,10 +13,15 @@ Usage
 
 
 Description
+
 •	The notebook imports necessary libraries such as torch, requests, BeautifulSoup, pandas, numpy, and transformers for handling data retrieval, sentiment analysis, and data manipulation.
+
 •	It then instantiates a BERT-based sentiment analysis model using the AutoTokenizer and AutoModelForSequenceClassification classes from the Hugging Face Transformers library.
+
 •	After encoding the input text, the notebook calculates sentiment scores using the BERT model and stores the results in a DataFrame.
+
 •	The sentiment scores range from 1 (very negative) to 5 (very positive), indicating the sentiment polarity of each input text.
+
 •	Finally, the notebook outputs the DataFrame containing the input text and their corresponding sentiment scores.
 
 Notes
